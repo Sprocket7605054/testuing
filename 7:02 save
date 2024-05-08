@@ -1,0 +1,365 @@
+from pygame import mixer
+#C:\\Users\\User\Desktop\Votag\Downloads/I Ran - intro clip.mp3
+#C:\\Users\\User\Desktop\Votag\Downloads/Learn Tp Fly - intro clip.mp3
+import pygame
+import time
+import sys
+x = 0
+# activate the pygame library .
+pygame.init()
+X = 352
+Y = 224
+ 
+# create the display surface object
+# of specific dimension..e(X, Y).
+scrn = pygame.display.set_mode((200,200),pygame.FULLSCREEN)
+ 
+# set the pygame window name
+pygame.display.set_caption('Votag')
+ 
+# create a surface object, image is drawn on it.
+ 
+ 
+# paint screen one time
+pygame.display.flip()
+
+# Starting the mixer
+mixer.init()
+ 
+# Loading the song
+mixer.music.load("C:\\Users\\User\Desktop\Votag\I Ran - intro clip.mp3")
+ 
+# Setting the volume
+mixer.music.set_volume(0.7)
+ 
+# Start playing the song
+
+def startupGif():
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame1.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame2.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame3.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame4.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame5.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame6.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame7.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame8.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame9.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame10.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    mixer.music.load("C:\\Users\\User\Desktop\Votag\I Ran - intro clip.mp3")
+    mixer.music.set_volume(0.7)
+    mixer.music.play()
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame11.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame12.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame13.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame14.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame15.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame16.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame17.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame18.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame19.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame20.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame21.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame22.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame23.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame24.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame25.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame26.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame27.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame28.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame29.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame30.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame31.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame32.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame33.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame34.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame35.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame36.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame37.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame38.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame39.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame40.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame41.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame42.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame43.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame44.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame45.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame46.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame47.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame48.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\\frame49.png").convert()
+    scrn.blit(imp, (100, 100))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+
+# infinite loop
+while True:
+    startupGif()
+    while (x != 4):
+        imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\pixilart-drawing (1) (1).png").convert()
+        scrn.blit(imp, (100, 100))
+        pygame.display.flip()
+        time.sleep(0.75)
+        imp = pygame.image.load("C:\\Users\\User\Desktop\Votag\pixil-frame-0 (2).png").convert()
+        scrn.blit(imp, (100, 100))  
+       
+        pygame.display.flip()  
+        time.sleep(0.75)
+       #call startup animation function
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                pygame.quit()
+                sys.exit()
+           
+            # checking if keydown event happened or not
+            if event.type == pygame.KEYDOWN:
+               
+                # checking if key "A" was pressed
+                if event.key == pygame.K_KP_ENTER:
+                    mixer.music.play()
+                    x=4
+    x = 1
+    while (x != 5):
+        imp = pygame.image.load("C:\\Users\\User\\Desktop\\Votag\\pixil-frame-1.png").convert()
+        scrn.blit(imp, (100, 100))  
+        pygame.display.flip()  
+        time.sleep(0.1)
+        imp = pygame.image.load("C:\\Users\\User\\Desktop\\Votag\\pixil-frame-2.png").convert()
+        scrn.blit(imp, (100, 100))  
+        pygame.display.flip()  
+        time.sleep(0.1)
+        imp = pygame.image.load("C:\\Users\\User\\Desktop\\Votag\\pixil-frame-3.png").convert()
+        scrn.blit(imp, (100, 100))  
+        pygame.display.flip()  
+        time.sleep(0.1)
+        imp = pygame.image.load("C:\\Users\\User\\Desktop\\Votag\\pixil-frame-4.png").convert()
+        scrn.blit(imp, (100, 100))  
+        pygame.display.flip()  
+        time.sleep(0.1)
+        for event in pygame.event.get():
+                if event.type == pygame.QUIT:
+                    pygame.quit()
+                    sys.exit()
+               
+                # checking if keydown event happened or not
+                if event.type == pygame.KEYDOWN:
+                   
+                    # checking if key "A" was pressed
+                    if event.key == pygame.K_KP_1:
+                        mixer.music.load("C:\\Users\\User\Desktop\Votag\Guiardians of the Galaxy Vol 2\\03 Lake Shore Drive.mp3")
+                        mixer.music.set_volume(0.7)
+                        mixer.music.play()
+                       
+                    if event.key == pygame.K_KP_2:
+                        mixer.music.load("C:\\Users\\User\Desktop\Votag\Guiardians of the Galaxy Vol 2\\01 Mr. Blue Sky.mp3")
+                        mixer.music.set_volume(0.7)
+                        mixer.music.play()
+                       
+                    if event.key == pygame.K_KP_3:
+                        mixer.music.load("C:\\Users\\User\Desktop\Votag\Guiardians of the Galaxy Vol 2\\08 Brandy (You're A Fine Girl).mp3")
+                        mixer.music.set_volume(0.7)
+                        mixer.music.play()
+                   
+                    if event.key == pygame.K_KP_4:
+                        mixer.music.load("C:\\Users\\User\Desktop\Votag\Guiardians of the Galaxy Vol 2\\11 Surrender.mp3")
+                        mixer.music.set_volume(0.7)
+                        mixer.music.play()
+                       
+                    if event.key == pygame.K_KP_5:
+                        mixer.music.load("C:\\Users\\User\Desktop\Votag\Guiardians of the Galaxy Vol 2\\12 Father And Son.mp3")
+                        mixer.music.set_volume(0.7)
+                        mixer.music.play()
+                       
+                    if event.key == pygame.K_KP_6:
+                        mixer.music.load("C:\\Users\\User\\Desktop\\Votag\\Guardians of The Galaxy Vol 1\\10 Escape (The Piña Colada Song).mp3")
+                        mixer.music.set_volume(0.7)
+                        mixer.music.play()
+                   
+                    if event.key == pygame.K_KP_7:
+                        mixer.music.load("C:\\Users\\User\Desktop\\Votag\\Micheal Jackson\\05 Beat It.mp3")
+                        mixer.music.set_volume(0.7)
+                        mixer.music.play()
+                       
+                    if event.key == pygame.K_KP_8:
+                        mixer.music.load("C:\\Users\\User\\Desktop\\Votag\\Nirvana\\04 Lithium.mp3")
+                        mixer.music.set_volume(1.5)
+                        mixer.music.play()
+                       
+                    if event.key == pygame.K_KP_9:
+                        mixer.music.load("C:\\Users\\User\Desktop\Votag\Micheal Jackson\\06 Billie Jean.mp3")
+                        mixer.music.set_volume(0.7)
+                        mixer.music.play()
+                    
+                    if event.key == pygame.K_1:
+                        mixer.music.load("C:\\Users\\User\\Desktop\\Votag\\Goo Goo Dolls - Slide (Lyrics) - Dizzy Up The Girl (1998).mp3")
+                        mixer.music.set_volume(0.7)
+                        mixer.music.play()
+                    
+                    if event.key == pygame.K_2:
+                        mixer.music.load("C:\\Users\\User\\Desktop\\Votag\\Mariah Carey - Fantasy ( Lyrics ).mp3")
+                        mixer.music.set_volume(0.7)
+                        mixer.music.play()
+                    
+                    if event.key == pygame.K_3:
+                        mixer.music.load("C:\\Users\\User\\Desktop\\Votag\\Semi-charmed Life (lyrics) - Third Eye Blind.mp3")
+                        mixer.music.set_volume(0.7)
+                        mixer.music.play()
+                    
+                    if event.key == pygame.K_4:
+                        mixer.music.load("C:\\Users\\User\\Desktop\\Votag\\blink 182 - All The Small Things (Lyrics).mp3")
+                        mixer.music.set_volume(0.7)
+                        mixer.music.play()
+                   
+                    if event.key == pygame.K_KP_PERIOD:
+                        mixer.music.unpause()
+                   
+                    if event.key == pygame.K_KP_0:
+
+                        mixer.music.pause()
+                    
+                    if event.key == pygame.K_TAB:
+                        pygame.quit()
+                        sys.exit()
