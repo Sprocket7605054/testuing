@@ -1,0 +1,672 @@
+from pygame import mixer 
+#/home/engineering/Downloads/I Ran - intro clip.mp3
+#/home/engineering/Downloads/Learn Tp Fly - intro clip.mp3
+import pygame
+import time
+import sys
+x = 0
+# activate the pygame library .
+pygame.init()
+X = 352
+Y = 224
+ 
+# create the display surface object
+# of specific dimension..e(X, Y).
+scrn = pygame.display.set_mode((X, Y), pygame.FULLSCREEN)
+ 
+# set the pygame window name
+pygame.display.set_caption('image')
+ 
+# create a surface object, image is drawn on it.
+  
+ 
+# paint screen one time
+pygame.display.flip()
+
+# Starting the mixer 
+mixer.init() 
+  
+# Loading the song 
+mixer.music.load("/home/engineering/Music/Guardians of The Galaxy Vol 1/03 Spirit In The Sky.mp3") 
+  
+# Setting the volume 
+mixer.music.set_volume(0.7) 
+  
+# Start playing the song 
+
+def startupGif():
+    imp = pygame.image.load("/home/engineering/frame1.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame2.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame3.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1) 
+    imp = pygame.image.load("/home/engineering/frame4.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame5.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame6.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame7.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame8.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame9.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame10.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    mixer.music.load("/home/engineering/Downloads/I Ran - intro clip.mp3")
+    mixer.music.set_volume(0.7) 
+    mixer.music.play()
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame11.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame12.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame13.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame14.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame15.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame16.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame17.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame18.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame19.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame20.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame21.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame22.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame23.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame24.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame25.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame26.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame27.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame28.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame29.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame30.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame31.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame32.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame33.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame34.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame35.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame36.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame37.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame38.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame39.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame40.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame41.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame42.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame43.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame44.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame45.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame46.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame47.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame48.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    imp = pygame.image.load("/home/engineering/frame49.png").convert()
+    scrn.blit(imp, (0, 0))  
+    pygame.display.flip()  
+    time.sleep(0.1)
+    
+
+
+# infinite loop 
+
+while True: 
+    startupGif()
+    while (x != 4):
+        
+        
+        imp = pygame.image.load("/home/engineering/Downloads/pixilart-drawing (1) (1).png").convert()
+        scrn.blit(imp, (0, 0))
+        pygame.display.flip()
+        time.sleep(1)
+        imp = pygame.image.load("/home/engineering/Downloads/pixil-frame-0 (2).png").convert()
+        scrn.blit(imp, (0, 0))  
+        pygame.display.flip()  
+        time.sleep(1)
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                pygame.quit()
+                sys.exit()
+            
+            # checking if keydown event happened or not
+            if event.type == pygame.KEYDOWN:
+                
+                # checking if key "A" was pressed
+                if event.key == pygame.K_KP_ENTER:
+                    mixer.music.play()
+                    x=4
+    x = 1
+    
+    
+    
+    
+    #need to switch from logo to menu 
+
+
+
+
+    while (x != 5):
+
+        #song menu so it moves constantly.
+        imp = pygame.image.load("/home/engineering/Downloads/Votag/New Menu/pixil-frame-0.png").convert()
+        scrn.blit(imp, (0, 0))  
+        pygame.display.flip()  
+        time.sleep(0.1)
+        imp = pygame.image.load("/home/engineering/Downloads/Votag/New Menu/pixil-frame-1.png").convert()
+        scrn.blit(imp, (0, 0))  
+        pygame.display.flip()  
+        time.sleep(0.1)
+        imp = pygame.image.load("/home/engineering/Downloads/Votag/New Menu/pixil-frame-2.png").convert()
+        scrn.blit(imp, (0, 0))  
+        pygame.display.flip()  
+        time.sleep(0.1)
+        imp = pygame.image.load("/home/engineering/Downloads/Votag/New Menu/pixil-frame-3.png").convert()
+        scrn.blit(imp, (0, 0))  
+        pygame.display.flip()  
+        time.sleep(0.1)
+        imp = pygame.image.load("/home/engineering/Downloads/Votag/New Menu/pixil-frame-4.png").convert()
+        scrn.blit(imp, (0, 0))  
+        pygame.display.flip()  
+        time.sleep(0.1)
+
+
+        for event in pygame.event.get():
+                if event.type == pygame.QUIT:
+                    pygame.quit()
+                    sys.exit()
+                
+                # checking if keydown event happened or not
+                if event.type == pygame.KEYDOWN:
+                    
+                    # checking if key "A" was pressed
+                    if event.key == pygame.K_KP_1:
+                        #imp = pygame.image.load("playing song image ").convert()
+                        #scrn.blit(imp, (0, 0))
+                        #pygame.display.flip()
+                        mixer.music.load("/home/engineering/Music/Guiardians of the Galaxy Vol 2/03 Lake Shore Drive.mp3")
+                        mixer.music.set_volume(0.7) 
+                        mixer.music.play()
+                        x = 10
+                        while (x == 10):
+                            imp = pygame.image.load("/home/engineering/Votag/Lakeshore/pixil-frame-5.png").convert()
+                            scrn.blit(imp, (150, 100))  
+                            pygame.display.flip()  
+                            time.sleep(0.1)
+                            imp = pygame.image.load("/home/engineering/Votag/Lakeshore/pixil-frame-6.png").convert()
+                            scrn.blit(imp, (150, 100))  
+                            pygame.display.flip()  
+                            time.sleep(0.1)
+                            imp = pygame.image.load("/home/engineering/Volag/Lakeshore/pixil-frame-7.png").convert()
+                            scrn.blit(imp, (150, 100))  
+                            pygame.display.flip()  
+                            time.sleep(0.1)
+                            imp = pygame.image.load("/home/engineering/Votag/Lakeshore/pixil-frame-8.png").convert()
+                            scrn.blit(imp, (150, 100))  
+                            pygame.display.flip()  
+                            time.sleep(0.1)
+                            for event in pygame.event.get():
+                                if event.type == pygame.KEYDOWN:
+                                    if event.key == pygame.K_KP_ENTER:
+                                        x = 0
+                                    if event.key == pygame.K_KP_PERIOD:
+                                        mixer.music.unpause()
+                   
+                                    if event.key == pygame.K_KP_0:
+
+                                        mixer.music.pause()
+                                    if event.key == pygame.K_TAB:
+                                        pygame.quit()
+                                        sys.exit()
+                        
+                    if event.key == pygame.K_KP_2:
+                        #imp = pygame.image.load("playing song image ").convert()
+                        #scrn.blit(imp, (0, 0))
+                        #pygame.display.flip()
+                        mixer.music.load("/home/engineering/Music/Guiardians of the Galaxy Vol 2/01 Mr. Blue Sky.mp3")
+                        mixer.music.set_volume(0.7) 
+                        mixer.music.play()
+                        x = 10
+                        while (x == 10):
+                            imp = pygame.image.load("/home/engineering\\Votag\\Mr. Blue\\pixil-frame-9.png").convert()
+                            scrn.blit(imp, (150, 100))  
+                            pygame.display.flip()  
+                            time.sleep(0.1)
+                            imp = pygame.image.load("/home/engineering\\Votag\\Mr. Blue\\pixil-frame-10.png").convert()
+                            scrn.blit(imp, (150, 100))  
+                            pygame.display.flip()  
+                            time.sleep(0.1)
+                            imp = pygame.image.load("/home/engineering\\Votag\\Mr. Blue\\pixil-frame-11.png").convert()
+                            scrn.blit(imp, (150, 100))  
+                            pygame.display.flip()  
+                            time.sleep(0.1)
+                            imp = pygame.image.load("/home/engineering\\Votag\\Mr. Blue\\pixil-frame-12.png").convert()
+                            scrn.blit(imp, (150, 100))  
+                            pygame.display.flip()  
+                            time.sleep(0.1)
+                            for event in pygame.event.get():
+                                if event.type == pygame.KEYDOWN:
+                                    if event.key == pygame.K_KP_ENTER:
+                                        x = 0
+                                    if event.key == pygame.K_KP_PERIOD:
+                                        mixer.music.unpause()
+                   
+                                    if event.key == pygame.K_KP_0:
+
+                                        mixer.music.pause()
+                                    if event.key == pygame.K_TAB:
+                                        pygame.quit()
+                                        sys.exit()
+                        
+                    if event.key == pygame.K_KP_3:
+                        #imp = pygame.image.load("playing song image ").convert()
+                        #scrn.blit(imp, (0, 0))
+                        #pygame.display.flip()
+                        mixer.music.load("/home/engineering/Votag/Goo Goo Dolls - Slide (Lyrics) - Dizzy Up The Girl (1998).mp3")
+                        mixer.music.set_volume(0.7) 
+                        mixer.music.play()
+                        x = 10
+                        while (x == 10):
+                            imp = pygame.image.load("/home/engineering/Votag/Slide/pixil-frame-13.png").convert()
+                            scrn.blit(imp, (150, 100))  
+                            pygame.display.flip()  
+                            time.sleep(0.1)
+                            imp = pygame.image.load("/home/engineering\\Votag/Slide/pixil-frame-14.png").convert()
+                            scrn.blit(imp, (150, 100))  
+                            pygame.display.flip()  
+                            time.sleep(0.1)
+                            imp = pygame.image.load("/home/engineering\\Votag\\Slide\\pixil-frame-15.png").convert()
+                            scrn.blit(imp, (150, 100))  
+                            pygame.display.flip()  
+                            time.sleep(0.1)
+                            imp = pygame.image.load("/home/engineering\\Votag\\Slide/pixil-frame-16.png").convert()
+                            scrn.blit(imp, (150, 100))  
+                            pygame.display.flip()  
+                            time.sleep(0.1)
+                            for event in pygame.event.get():
+                                if event.type == pygame.KEYDOWN:
+                                    if event.key == pygame.K_KP_ENTER:
+                                        x = 0
+                                    if event.key == pygame.K_KP_PERIOD:
+                                        mixer.music.unpause()
+                   
+                                    if event.key == pygame.K_KP_0:
+
+                                        mixer.music.pause()
+                                    if event.key == pygame.K_TAB:
+                                        pygame.quit()
+                                        sys.exit()
+                    
+                    if event.key == pygame.K_KP_4:
+                        #imp = pygame.image.load("playing song image ").convert()
+                        #scrn.blit(imp, (0, 0))
+                        #pygame.display.flip()
+                        mixer.music.load("/home/engineering/Votag/Guiardians of the Galaxy Vol 2/11 Surrender.mp3")
+                        mixer.music.set_volume(0.7) 
+                        mixer.music.play()
+                        x = 10
+                        while (x == 10):
+                            imp = pygame.image.load("/home/engineering/Votag/surrender/pixil-frame-17.png").convert()
+                            scrn.blit(imp, (150, 100))  
+                            pygame.display.flip()  
+                            time.sleep(0.1)
+                            imp = pygame.image.load("/home/engineering\\Votag/surrender/pixil-frame-18.png").convert()
+                            scrn.blit(imp, (150, 100))  
+                            pygame.display.flip()  
+                            time.sleep(0.1)
+                            imp = pygame.image.load("/home/engineering\\Votag/surrender/pixil-frame-19.png").convert()
+                            scrn.blit(imp, (150, 100))  
+                            pygame.display.flip()  
+                            time.sleep(0.1)
+                            imp = pygame.image.load("/home/engineering\\Votag/surremder/pixil-frame-20.png").convert()
+                            scrn.blit(imp, (150, 100))  
+                            pygame.display.flip()  
+                            time.sleep(0.1)
+                            for event in pygame.event.get():
+                                if event.type == pygame.KEYDOWN:
+                                    if event.key == pygame.K_KP_ENTER:
+                                        x = 0
+                                    if event.key == pygame.K_KP_PERIOD:
+                                        mixer.music.unpause()
+                   
+                                    if event.key == pygame.K_KP_0:
+
+                                        mixer.music.pause()
+                                    if event.key == pygame.K_TAB:
+                                        pygame.quit()
+                                        sys.exit()
+                        
+                    if event.key == pygame.K_KP_5:
+                        #imp = pygame.image.load("playing song image ").convert()
+                        #scrn.blit(imp, (0, 0))
+                        #pygame.display.flip()
+                        mixer.music.load("/home/engineering\\Votag\\blink 182 - All The Small Things (Lyrics).mp3")
+                        mixer.music.set_volume(0.7) 
+                        mixer.music.play()
+                        x = 10
+                        while (x == 10):
+                            imp = pygame.image.load("/home/engineering/Votag/AtSL/pixil-frame-20.png").convert()
+                            scrn.blit(imp, (150, 100))  
+                            pygame.display.flip()  
+                            time.sleep(0.1)
+                            imp = pygame.image.load("/home/engineering\\Votag/AtSL/pixil-frame-21.png").convert()
+                            scrn.blit(imp, (150, 100))  
+                            pygame.display.flip()  
+                            time.sleep(0.1)
+                            imp = pygame.image.load("/home/engineering\\Votag/AtSL/pixil-frame-22.png").convert()
+                            scrn.blit(imp, (150, 100))  
+                            pygame.display.flip()  
+                            time.sleep(0.1)
+                            imp = pygame.image.load("/home/engineering\\Votag/AtSL/pixil-frame-23.png").convert()
+                            scrn.blit(imp, (150, 100))  
+                            pygame.display.flip()  
+                            time.sleep(0.1)
+                            for event in pygame.event.get():
+                                if event.type == pygame.KEYDOWN:
+                                    if event.key == pygame.K_KP_ENTER:
+                                        x = 0
+                                    if event.key == pygame.K_KP_PERIOD:
+                                        mixer.music.unpause()
+                   
+                                    if event.key == pygame.K_KP_0:
+
+                                        mixer.music.pause()
+                                    if event.key == pygame.K_TAB:
+                                        pygame.quit()
+                                        sys.exit()
+
+                        
+                        
+                    if event.key == pygame.K_KP_6:
+                        #imp = pygame.image.load("playing song image ").convert()
+                        #scrn.blit(imp, (0, 0))
+                        #pygame.display.flip()
+                        mixer.music.load("/home/engineering/Votag/Semi-charmed Life (lyrics) - Third Eye Blind.mp3")
+                        mixer.music.set_volume(0.7) 
+                        mixer.music.play()
+                        x = 10
+                        while (x == 10):
+                            imp = pygame.image.load("/home/engineering/Votag/SEMI/pixil-frame-25.png").convert()
+                            scrn.blit(imp, (150, 100))  
+                            pygame.display.flip()  
+                            time.sleep(0.1)
+                            imp = pygame.image.load("/home/engineering\\Votag/SEMI/pixil-frame-26.png").convert()
+                            scrn.blit(imp, (150, 100))  
+                            pygame.display.flip()  
+                            time.sleep(0.1)
+                            imp = pygame.image.load("/home/engineering\\Votag/SEMI/pixil-frame-27.png").convert()
+                            scrn.blit(imp, (150, 100))  
+                            pygame.display.flip()  
+                            time.sleep(0.1)
+                            imp = pygame.image.load("/home/engineering\\Votag/SEMI/pixil-frame-28.png").convert()
+                            scrn.blit(imp, (150, 100))  
+                            pygame.display.flip()  
+                            time.sleep(0.1)
+                            for event in pygame.event.get():
+                                if event.type == pygame.KEYDOWN:
+                                    if event.key == pygame.K_KP_ENTER:
+                                        x = 0
+                                    if event.key == pygame.K_KP_PERIOD:
+                                        mixer.music.unpause()
+                   
+                                    if event.key == pygame.K_KP_0:
+
+                                        mixer.music.pause()
+                                    if event.key == pygame.K_TAB:
+                                        pygame.quit()
+                                        sys.exit()
+                    
+                    if event.key == pygame.K_KP_7:
+                        #imp = pygame.image.load("playing song image ").convert()
+                        #scrn.blit(imp, (0, 0))
+                        #pygame.display.flip()
+                        mixer.music.load("/home/engineering/Votag\\Mariah Carey - Fantasy ( Lyrics ).mp3")
+                        mixer.music.set_volume(0.7) 
+                        mixer.music.play()
+                        x = 10
+                        while (x == 10):
+                            imp = pygame.image.load("/home/engineering/Votag/Fan/pixil-frame-29.png").convert()
+                            scrn.blit(imp, (150, 100))  
+                            pygame.display.flip()  
+                            time.sleep(0.1)
+                            imp = pygame.image.load("/home/engineering\\Votag/Fan/pixil-frame-30.png").convert()
+                            scrn.blit(imp, (150, 100))  
+                            pygame.display.flip()  
+                            time.sleep(0.1)
+                            imp = pygame.image.load("/home/engineering\\Votag/Fan/pixil-frame-31.png").convert()
+                            scrn.blit(imp, (150, 100))  
+                            pygame.display.flip()  
+                            time.sleep(0.1)
+                            imp = pygame.image.load("/home/engineering\\Votag/Fan/pixil-frame-32.png").convert()
+                            scrn.blit(imp, (150, 100))  
+                            pygame.display.flip()  
+                            time.sleep(0.1)
+                            for event in pygame.event.get():
+                                if event.type == pygame.KEYDOWN:
+                                    if event.key == pygame.K_KP_ENTER:
+                                        x = 0
+                                    if event.key == pygame.K_KP_PERIOD:
+                                        mixer.music.unpause()
+                   
+                                    if event.key == pygame.K_KP_0:
+
+                                        mixer.music.pause()
+                                    if event.key == pygame.K_TAB:
+                                        pygame.quit()
+                                        sys.exit()
+                    if event.key == pygame.K_KP_8:
+                        #imp = pygame.image.load("playing song image ").convert()
+                        #scrn.blit(imp, (0, 0))
+                        #pygame.display.flip()
+                        mixer.music.load("/home/engineering/Music/Nirvana/04 Lithium.mp3")
+                        mixer.music.set_volume(0.7) 
+                        mixer.music.play()
+                        x = 10
+                        while (x == 10):
+                            imp = pygame.image.load("/home/engineering/Votag/Lit/pixil-frame-33.png").convert()
+                            scrn.blit(imp, (150, 100))  
+                            pygame.display.flip()  
+                            time.sleep(0.1)
+                            imp = pygame.image.load("/home/engineering\\Votag/Lit/pixil-frame-34.png").convert()
+                            scrn.blit(imp, (150, 100))  
+                            pygame.display.flip()  
+                            time.sleep(0.1)
+                            imp = pygame.image.load("/home/engineering\\Votag/Lit/pixil-frame-35.png").convert()
+                            scrn.blit(imp, (150, 100))  
+                            pygame.display.flip()  
+                            time.sleep(0.1)
+                            imp = pygame.image.load("/home/engineering\\Votag/Lit/pixil-frame-36.png").convert()
+                            scrn.blit(imp, (150, 100))  
+                            pygame.display.flip()  
+                            time.sleep(0.1)
+                            for event in pygame.event.get():
+                                if event.type == pygame.KEYDOWN:
+                                    if event.key == pygame.K_KP_ENTER:
+                                        x = 0
+                                    if event.key == pygame.K_KP_PERIOD:
+                                        mixer.music.unpause()
+                   
+                                    if event.key == pygame.K_KP_0:
+
+                                        mixer.music.pause()
+                                    if event.key == pygame.K_TAB:
+                                        pygame.quit()
+                                        sys.exit()
+                        
+                    if event.key == pygame.K_KP_9:
+                        #imp = pygame.image.load("playing song image ").convert()
+                        #scrn.blit(imp, (0, 0))
+                        #pygame.display.flip()
+                        mixer.music.load("/home/engineering/Music/Micheal Jackson/06 Billie Jean.mp3")
+                        mixer.music.set_volume(0.7) 
+                        mixer.music.play()x = 10
+                        while (x == 10):
+                            imp = pygame.image.load("/home/engineering/Votag/billie/pixil-frame-33.png").convert()
+                            scrn.blit(imp, (150, 100))  
+                            pygame.display.flip()  
+                            time.sleep(0.1)
+                            imp = pygame.image.load("/home/engineering\\Votag/billie/pixil-frame-34.png").convert()
+                            scrn.blit(imp, (150, 100))  
+                            pygame.display.flip()  
+                            time.sleep(0.1)
+                            imp = pygame.image.load("/home/engineering\\Votag/billie/pixil-frame-35.png").convert()
+                            scrn.blit(imp, (150, 100))  
+                            pygame.display.flip()  
+                            time.sleep(0.1)
+                            imp = pygame.image.load("/home/engineering\\Votag/billie/pixil-frame-36.png").convert()
+                            scrn.blit(imp, (150, 100))  
+                            pygame.display.flip()  
+                            time.sleep(0.1)
+                            for event in pygame.event.get():
+                                if event.type == pygame.KEYDOWN:
+                                    if event.key == pygame.K_KP_ENTER:
+                                        x = 0
+                                    if event.key == pygame.K_KP_PERIOD:
+                                        mixer.music.unpause()
+                   
+                                    if event.key == pygame.K_KP_0:
+
+                                        mixer.music.pause()
+                                    if event.key == pygame.K_TAB:
+                                        pygame.quit()
+                                        sys.exit()
+                    
+                    if event.key == pygame.K_KP_PERIOD:
+                        mixer.music.unpause()
+                    
+                    if event.key == pygame.K_KP_0:
+
+                        mixer.music.pause()
+
+                    if event.key == pygame.K_TAB:
+                        pygame.quit()
+                        sys.exit()
+                    
